@@ -1,0 +1,15 @@
+[package]
+name = "imagefont"
+author = "Madyan Al-hajebi"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
+image = "0.23"
+imageproc = "0.22.0"
+rusttype = "0.9.2"
+rayon = "1.5"
+tokio = { version = "1", features = ["fs", "rt-multi-thread"] }
+num_cpus = "1.13"

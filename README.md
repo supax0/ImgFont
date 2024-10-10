@@ -7,8 +7,11 @@ It is a model that generate images from font, it can be used to generate any tex
 
 
 use std::path::PathBuf;
+
 use imgfont::ImgFont;
+
 fn test_imgfont() {
+
     // Define the directories and file paths
     let fonts_dir = PathBuf::from("./tests/fonts");      // You can create a sample fonts folder within the tests directory
     let words_file = PathBuf::from("./tests/words.txt"); // A sample words file

@@ -5,7 +5,7 @@ It is a model that generate images from font, it can be used to generate any tex
 
 
 
-
+```bash
 use std::path::PathBuf;
 
 use imgfont::ImgFont;
@@ -24,3 +24,4 @@ fn test_imgfont() {
     // For now, we're not returning anything, but you can check file creation if necessary.
     assert!(images_dir.exists()); // Ensure the output directory is created
 }
+```
